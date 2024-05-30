@@ -1,4 +1,4 @@
-![An image](image:jackpot_320_png.png)
+!(image://jackpot_320_png.png)
 
 # Smart-Contract-ERC20
 
