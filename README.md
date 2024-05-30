@@ -11,3 +11,25 @@ Etherium ERC20 Smart Contract Reference License:
 
 
 OpenZeppelin Contracts is released under the MIT License.
+
+
+UNCTIONS
+totalSupply()
+
+Returns the value of tokens in existence.
+
+
+balanceOf(account)
+
+transfer(to, value)
+
+allowance(owner, spender)
+
+approve(spender, value)
+
+transferFrom(from, to, value)
+
+EVENTS
+Transfer(from, to, value)
+
+Approval(owner, spender, value)
