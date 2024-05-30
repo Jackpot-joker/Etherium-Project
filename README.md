@@ -9,34 +9,34 @@ WEB3 Project For Play To Earn
 Returns the value of tokens in existence.
 
 
-### 1. balanceOf(account)
+### 2. balanceOf(account)
 
->> Returns the value of tokens owned by account.
-
-
-### 1. transfer(to, value)
-
->> Moves a value amount of tokens from the caller’s account to to.
-
->> Returns a boolean value indicating whether the operation succeeded.
-
->> Emits a transfer event.
+Returns the value of tokens owned by account.
 
 
-### 1. allowance(owner, spender)
+### 3. transfer(to, value)
+
+Moves a value amount of tokens from the caller’s account to to.
+
+Returns a boolean value indicating whether the operation succeeded.
+
+Emits a transfer event.
+
+
+### 4. allowance(owner, spender)
 
 Returns the remaining number of tokens that spender will be allowed to spend on behalf of owner through transferFrom. This is zero by default.
 
 This value changes when approve or transferFrom are called.
 
 
-### 1. approve(spender, value)
+### 5. approve(spender, value)
 
 Sets a value amount of tokens as the allowance of spender over the caller’s tokens.
 
 Returns a boolean value indicating whether the operation succeeded.
 
-### 1. transferFrom(from, to, value)
+### 6. transferFrom(from, to, value)
 
 Moves a value amount of tokens from from to to using the allowance mechanism. value is then deducted from the caller’s allowance.
 
@@ -55,11 +55,12 @@ Note that value may be zero.
 
 
 
-### 1. Approval(owner, spender, value)
+### 2. Approval(owner, spender, value)
 
 Emitted when the allowance of a spender for an owner is set by a call to approve. value is the new allowance.
 
 
+# Reference
 
 Etherium ERC20 Smart Contract Reference URL:
 
