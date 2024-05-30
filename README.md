@@ -1,4 +1,4 @@
-![logo](image://jackpot_320_png.png)
+![logo](jackpot_320_png.png)
 
 # Smart-Contract-ERC20
 
