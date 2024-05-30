@@ -27,7 +27,6 @@ abstract contract Context {
     }
 }
 
-
 /**
  * @dev Interface of the ERC-20 standard as defined in the ERC.
  */
@@ -103,8 +102,6 @@ interface IERC20 {
     function transferFrom(address from, address to, uint256 value) external returns (bool);
 }
 
-//import {IERC20Metadata} from "./extensions/IERC20Metadata.sol";
-
 /**
  * @dev Interface for the optional metadata functions from the ERC-20 standard.
  */
@@ -124,13 +121,6 @@ interface IERC20Metadata is IERC20 {
      */
     function decimals() external view returns (uint8);
 }
-
-
-//import {Context} from "../../utils/Context.sol";
-
-
-
-// import {IERC20Errors} from "../../interfaces/draft-IERC6093.sol";
 
 /**
  * @dev Standard ERC-20 Errors
@@ -177,7 +167,6 @@ interface IERC20Errors {
      */
     error ERC20InvalidSpender(address spender);
 }
-
 
 /**
  * @dev Implementation of the {IERC20} interface.
